@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33795518403509952}
   - component: {fileID: 23407409807377042}
   - component: {fileID: 95627504079705280}
+  - component: {fileID: 114216488323295856}
   - component: {fileID: 65458772582643544}
   m_Layer: 0
   m_Name: Bed
@@ -36,13 +37,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1118991862384252}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 3.13, y: 1.3959773e-16, z: -11.23}
+  m_LocalRotation: {x: -0.5000002, y: 0.4999999, z: 0.49999982, w: 0.5000001}
+  m_LocalPosition: {x: -1.5001585, y: -2.3735003, z: 20.236994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 90.00001}
 --- !u!23 &23407409807377042
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -113,3 +114,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114216488323295856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1118991862384252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf3575480402db40813e763382412fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 0
+  eraseRenderer: 0
+  originalLayer: 0
+  originalMaterials: []

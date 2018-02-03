@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33351264513720474}
   - component: {fileID: 23867825394529846}
   - component: {fileID: 95481474174854132}
+  - component: {fileID: 114686930454398490}
   - component: {fileID: 65822835988568442}
   m_Layer: 0
   m_Name: Stove
@@ -36,13 +37,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1447911934014494}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.5, y: 3.1482325e-16, z: -2.11}
-  m_LocalScale: {x: 0.6715325, y: 0.8447194, z: 0.8447194}
+  m_LocalRotation: {x: -0.50002986, y: -0.4999702, z: -0.4999702, w: 0.50002986}
+  m_LocalPosition: {x: -6.8949986, y: -2.37, z: -7.5849996}
+  m_LocalScale: {x: 0.69273823, y: 0.8713939, z: 0.8713939}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: -89.993004}
 --- !u!23 &23867825394529846
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -113,3 +114,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114686930454398490
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1447911934014494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf3575480402db40813e763382412fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 0
+  eraseRenderer: 0
+  originalLayer: 0
+  originalMaterials: []

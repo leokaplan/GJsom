@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33931672558762290}
   - component: {fileID: 23287024851382438}
   - component: {fileID: 95476235413321554}
+  - component: {fileID: 114154487646496124}
   - component: {fileID: 65965691416876216}
   m_Layer: 0
   m_Name: Troninho
@@ -36,13 +37,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1490963932903958}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 4.7828298, y: 2.0594281e-16, z: -9.274839}
+  m_LocalRotation: {x: -0.5000002, y: 0.4999999, z: 0.49999982, w: 0.5000001}
+  m_LocalPosition: {x: 6.25, y: -2.3735003, z: 10.746994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 90.00001}
 --- !u!23 &23287024851382438
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -113,3 +114,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114154487646496124
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1490963932903958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf3575480402db40813e763382412fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 0
+  eraseRenderer: 0
+  originalLayer: 0
+  originalMaterials: []
