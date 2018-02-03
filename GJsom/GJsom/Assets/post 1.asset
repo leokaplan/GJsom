@@ -42,8 +42,8 @@ MonoBehaviour:
   ambientOcclusion:
     m_Enabled: 1
     m_Settings:
-      intensity: 1.03
-      radius: 1.7
+      intensity: 1.15
+      radius: 0.9
       sampleCount: 16
       downsampling: 0
       forceForwardCompatibility: 0
@@ -54,15 +54,15 @@ MonoBehaviour:
     m_Settings:
       reflection:
         blendType: 0
-        reflectionQuality: 2
-        maxDistance: 100
+        reflectionQuality: 0
+        maxDistance: 104
         iterationCount: 256
         stepSize: 3
         widthModifier: 0.5
         reflectionBlur: 1
         reflectBackfaces: 0
       intensity:
-        reflectionMultiplier: 1
+        reflectionMultiplier: 2
         fadeDistance: 100
         fresnelFade: 1
         fresnelFadePower: 1
@@ -71,10 +71,10 @@ MonoBehaviour:
   depthOfField:
     m_Enabled: 0
     m_Settings:
-      focusDistance: 13.43
-      aperture: 1.2
-      focalLength: 50
-      useCameraFov: 1
+      focusDistance: 54.3
+      aperture: 0.53
+      focalLength: 77
+      useCameraFov: 0
       kernelSize: 1
   motionBlur:
     m_Enabled: 1
@@ -100,10 +100,10 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       bloom:
-        intensity: 0.55
-        threshold: 0.83
-        softKnee: 0.567
-        radius: 2.37
+        intensity: 0.35
+        threshold: 0.7
+        softKnee: 0.676
+        radius: 3.57
         antiFlicker: 0
       lensDirt:
         texture: {fileID: 2800000, guid: 7a051dbda2d7bc447bee412427cd311e, type: 3}
@@ -132,15 +132,15 @@ MonoBehaviour:
         blue: {x: 0, y: 0, z: 1}
         currentEditingChannel: 0
       colorWheels:
-        mode: 1
+        mode: 0
         log:
           slope: {r: 0.87547874, g: 0.89629424, b: 1, a: 0}
           power: {r: 1, g: 0.8195759, b: 0.5263095, a: 0}
           offset: {r: 0.9287383, g: 1, b: 0.8356048, a: 0}
         linear:
-          lift: {r: 0, g: 0, b: 0, a: 0}
-          gamma: {r: 0, g: 0, b: 0, a: 0}
-          gain: {r: 0, g: 0, b: 0, a: 0}
+          lift: {r: 0.9260384, g: 0.91981816, b: 1, a: 0}
+          gamma: {r: 1, g: 1, b: 1, a: 0}
+          gain: {r: 1, g: 1, b: 1, a: 0}
       curves:
         master:
           curve:
