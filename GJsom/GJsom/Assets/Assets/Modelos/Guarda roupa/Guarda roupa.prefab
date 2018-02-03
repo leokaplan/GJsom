@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33095979236175004}
   - component: {fileID: 23014933160906664}
   - component: {fileID: 95959694974331036}
+  - component: {fileID: 65352049220517080}
   m_Layer: 0
   m_Name: Guarda roupa
   m_TagString: Untagged
@@ -83,6 +84,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1549588738150304}
   m_Mesh: {fileID: 4300000, guid: 394eff1019e415a42b79a3f3c1e79d95, type: 3}
+--- !u!65 &65352049220517080
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1549588738150304}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.77026, y: 2.6870043, z: 2.9313526}
+  m_Center: {x: 0.0072701424, y: 0.0038858065, z: 1.4656763}
 --- !u!95 &95959694974331036
 Animator:
   serializedVersion: 3

@@ -22,6 +22,8 @@ GameObject:
   - component: {fileID: 33933204115681860}
   - component: {fileID: 23587590925875716}
   - component: {fileID: 95126683306266020}
+  - component: {fileID: 65957509250316450}
+  - component: {fileID: 65442750029233532}
   m_Layer: 0
   m_Name: SofaPH
   m_TagString: Untagged
@@ -83,6 +85,30 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1479883716360756}
   m_Mesh: {fileID: 4300000, guid: 9b71798812fc575418fdc324234f6bce, type: 3}
+--- !u!65 &65442750029233532
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1479883716360756}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.443324, y: 1.012659, z: 1.2340162}
+  m_Center: {x: 0.05538869, y: -0.96380633, z: -0.61701936}
+--- !u!65 &65957509250316450
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1479883716360756}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.17, y: 2.99, z: 1.2340162}
+  m_Center: {x: 0.69, y: 0.02, z: -0.6170078}
 --- !u!95 &95126683306266020
 Animator:
   serializedVersion: 3

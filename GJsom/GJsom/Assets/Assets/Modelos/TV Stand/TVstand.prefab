@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33893354481557190}
   - component: {fileID: 23795968968915328}
   - component: {fileID: 95989294528951356}
+  - component: {fileID: 65752619909585130}
   m_Layer: 0
   m_Name: TV
   m_TagString: Untagged
@@ -40,6 +41,7 @@ GameObject:
   - component: {fileID: 33466258089714550}
   - component: {fileID: 23874679094507372}
   - component: {fileID: 95110473356112626}
+  - component: {fileID: 65918756198945644}
   m_Layer: 0
   m_Name: TVstand
   m_TagString: Untagged
@@ -54,7 +56,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1732302921508916}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 1.8927298, y: 1.7673063e-16, z: -7.9592404}
+  m_LocalPosition: {x: -3.33, y: 1.7673063e-16, z: -5.45}
   m_LocalScale: {x: 1, y: 1.0205824, z: 1}
   m_Children:
   - {fileID: 4995568396470548}
@@ -157,6 +159,30 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1529620179758774}
   m_Mesh: {fileID: 4300000, guid: d45751da550de42468992d51f4664490, type: 3}
+--- !u!65 &65752619909585130
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1529620179758774}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5479, y: 0.69765127, z: 1.1037089}
+  m_Center: {x: -9.23919e-16, y: 0.032507516, z: 0.5518548}
+--- !u!65 &65918756198945644
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1732302921508916}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.87198436, y: 3.10039, z: 1.1007658}
+  m_Center: {x: 0.000000014901161, y: 0.0044835815, z: 0.5503829}
 --- !u!95 &95110473356112626
 Animator:
   serializedVersion: 3

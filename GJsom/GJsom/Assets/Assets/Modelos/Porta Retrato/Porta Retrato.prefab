@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33117614188854316}
   - component: {fileID: 23950553256185106}
   - component: {fileID: 95157641612078034}
+  - component: {fileID: 65265988213687742}
   m_Layer: 0
   m_Name: Porta Retrato
   m_TagString: Untagged
@@ -84,6 +85,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1594197360849802}
   m_Mesh: {fileID: 4300000, guid: 9d13f372e3e3bce4e9f4f344fb25d8f5, type: 3}
+--- !u!65 &65265988213687742
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1594197360849802}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.21429583, y: 0.38495257, z: 0.52779245}
+  m_Center: {x: 0.007861279, y: 0, z: 0.25728738}
 --- !u!95 &95157641612078034
 Animator:
   serializedVersion: 3

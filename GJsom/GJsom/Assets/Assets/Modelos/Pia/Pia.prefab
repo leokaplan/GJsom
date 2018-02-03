@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33946843758115334}
   - component: {fileID: 23052093778173176}
   - component: {fileID: 95381601344421226}
+  - component: {fileID: 64564071139205742}
   m_Layer: 0
   m_Name: Pia
   m_TagString: Untagged
@@ -36,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1089258049109260}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 3.6750414, y: 0.235, z: -9.1873255}
+  m_LocalPosition: {x: 3.6750414, y: 0.235, z: -9.47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -82,6 +83,20 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1089258049109260}
+  m_Mesh: {fileID: 4300000, guid: 02254b781a7189f45a1c55ffe8a2648d, type: 3}
+--- !u!64 &64564071139205742
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1089258049109260}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 02254b781a7189f45a1c55ffe8a2648d, type: 3}
 --- !u!95 &95381601344421226
 Animator:

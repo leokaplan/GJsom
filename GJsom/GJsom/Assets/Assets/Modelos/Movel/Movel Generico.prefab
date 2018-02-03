@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33692749307019660}
   - component: {fileID: 23191188299296072}
   - component: {fileID: 95824181054657276}
+  - component: {fileID: 65670060181298564}
   m_Layer: 0
   m_Name: Movel Generico
   m_TagString: Untagged
@@ -83,6 +84,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1101153101132626}
   m_Mesh: {fileID: 4300000, guid: 96b3b687bf847df488c65c6afa8cc8cb, type: 3}
+--- !u!65 &65670060181298564
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101153101132626}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.87198436, y: 2.3430033, z: 1.1007658}
+  m_Center: {x: 0, y: 0.0042747864, z: 0.5503829}
 --- !u!95 &95824181054657276
 Animator:
   serializedVersion: 3

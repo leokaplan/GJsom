@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33486234861838484}
   - component: {fileID: 23983882567878654}
   - component: {fileID: 95866920359981816}
+  - component: {fileID: 65131217013005396}
   m_Layer: 0
   m_Name: PianoPH
   m_TagString: Untagged
@@ -83,6 +84,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1114187618056346}
   m_Mesh: {fileID: 4300000, guid: 7b9a8dad79a2a9d478e97a61e4031fe4, type: 3}
+--- !u!65 &65131217013005396
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1114187618056346}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1643122, y: 2.1503098, z: 1.8802488}
+  m_Center: {x: 0.21389253, y: 0, z: 0.9401244}
 --- !u!95 &95866920359981816
 Animator:
   serializedVersion: 3
