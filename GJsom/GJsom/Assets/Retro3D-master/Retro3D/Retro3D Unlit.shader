@@ -8,6 +8,9 @@
     }
     SubShader
     {
+    Tags { "RenderType" = "Opaque" }
+    Lighting On
+      ZWrite On
         Pass
         {
             CGPROGRAM
@@ -17,10 +20,13 @@
             #pragma vertex vert
             #pragma fragment frag
 
+          
+
             struct v2f
             {
                 float4 position : SV_POSITION;
                 float3 texcoord : TEXCOORD;
+
             };
 
             sampler2D _MainTex;
@@ -28,6 +34,8 @@
             float4 _Color;
             float _GeoRes;
 
+     
+     		
             v2f vert(appdata_base v)
             {
                 v2f o;
@@ -52,5 +60,6 @@
 
             ENDCG
         }
+
     }
 }
