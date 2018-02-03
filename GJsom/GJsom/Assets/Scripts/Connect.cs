@@ -12,6 +12,9 @@ using UnityEngine;
 
 public class Connect : MonoBehaviour
 {
+    public GameObject tier0;
+    public GameObject tier1;
+
     public GameObject portal;
 
     public string location;
@@ -20,18 +23,22 @@ public class Connect : MonoBehaviour
     public int comodo;
 
 
-    private void Start()
-    {
-        
-    }
-
-
     private void OnTriggerEnter(Collider other)
     {
         insanidade++;
         rank += comodo;
         Debug.Log(location + " " + rank + ", insanidade: " + insanidade);
         CasaFantasma();
+        Insanidade();
+    }
+
+    void Insanidade()
+    {
+        if (insanidade > 2)
+        {
+            //tier0.SetActive(false);
+          //  tier1.SetActive(true);
+        }
     }
 
     void CasaFantasma()
