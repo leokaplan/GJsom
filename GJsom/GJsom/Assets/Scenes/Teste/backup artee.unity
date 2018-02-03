@@ -327,7 +327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 11400000, guid: 9358531707a98db4ca0f37c1329c1174, type: 2}
+  profile: {fileID: 11400000, guid: 33161bcc8c3300f45ac0c683b88d4baa, type: 2}
 --- !u!1001 &450724928
 Prefab:
   m_ObjectHideFlags: 0
@@ -1708,7 +1708,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
