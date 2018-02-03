@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33427080697775772}
   - component: {fileID: 23004403040143144}
   - component: {fileID: 95072831235244612}
+  - component: {fileID: 114430601632867748}
   - component: {fileID: 65805437183107086}
   m_Layer: 0
   m_Name: Clock
@@ -37,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1735292344412454}
   m_LocalRotation: {x: -0.49985692, y: -0.50014305, z: -0.50014305, w: 0.49985692}
-  m_LocalPosition: {x: 5.0982704, y: 1.1007656, z: -15.296727}
+  m_LocalPosition: {x: 3.6181118, y: -1.2727348, z: -7.4497337}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -113,3 +114,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114430601632867748
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735292344412454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf3575480402db40813e763382412fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 0
+  eraseRenderer: 0
+  originalLayer: 0
+  originalMaterials: []

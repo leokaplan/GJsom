@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33933204115681860}
   - component: {fileID: 23587590925875716}
   - component: {fileID: 95126683306266020}
+  - component: {fileID: 114444455277033176}
   - component: {fileID: 65957509250316450}
   - component: {fileID: 65442750029233532}
   m_Layer: 0
@@ -38,8 +39,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1479883716360756}
   m_LocalRotation: {x: -0.000000053385072, y: 0.7071068, z: -0.7071067, w: -0.000000053385083}
-  m_LocalPosition: {x: -1.1936976, y: 2.5787746e-16, z: -11.613769}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -4.3401585, y: -2.3735003, z: -0.963007}
+  m_LocalScale: {x: 1.2756063, y: 1.2756059, z: 1.2756059}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -126,3 +127,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114444455277033176
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1479883716360756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf3575480402db40813e763382412fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 0
+  eraseRenderer: 0
+  originalLayer: 0
+  originalMaterials: []
