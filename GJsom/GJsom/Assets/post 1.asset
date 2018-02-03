@@ -124,8 +124,8 @@ MonoBehaviour:
         temperature: -2
         tint: 12
         hueShift: 0
-        saturation: 1
-        contrast: 1.26
+        saturation: 1.17
+        contrast: 1.15
       channelMixer:
         red: {x: 1, y: 0, z: 0}
         green: {x: 0, y: 1, z: 0}
@@ -289,9 +289,9 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       colored: 1
-      intensity: 0.57
-      size: 1
-      luminanceContribution: 0.8
+      intensity: 0.699
+      size: 0.65
+      luminanceContribution: 0.629
   vignette:
     m_Enabled: 1
     m_Settings:
