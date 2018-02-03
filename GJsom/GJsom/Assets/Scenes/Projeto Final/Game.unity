@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1575,8 +1575,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31bf43e00a6d56f4bbd4970654ad8259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tier0: {fileID: 0}
-  tier1: {fileID: 0}
+  tier0: {fileID: 452105687}
+  tier1: {fileID: 1349355379}
   portal: {fileID: 0}
   location: Corredor
   comodo: 0
@@ -2593,8 +2593,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31bf43e00a6d56f4bbd4970654ad8259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tier0: {fileID: 0}
-  tier1: {fileID: 0}
+  tier0: {fileID: 452105687}
+  tier1: {fileID: 1349355379}
   portal: {fileID: 0}
   location: Banheiro
   comodo: 5
@@ -2967,8 +2967,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31bf43e00a6d56f4bbd4970654ad8259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tier0: {fileID: 0}
-  tier1: {fileID: 0}
+  tier0: {fileID: 452105687}
+  tier1: {fileID: 1349355379}
   portal: {fileID: 0}
   location: Sala
   comodo: 11
@@ -3296,8 +3296,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31bf43e00a6d56f4bbd4970654ad8259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tier0: {fileID: 0}
-  tier1: {fileID: 0}
+  tier0: {fileID: 452105687}
+  tier1: {fileID: 1349355379}
   portal: {fileID: 0}
   location: Quarto
   comodo: 7
@@ -6855,8 +6855,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31bf43e00a6d56f4bbd4970654ad8259, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tier0: {fileID: 0}
-  tier1: {fileID: 0}
+  tier0: {fileID: 452105687}
+  tier1: {fileID: 1349355379}
   portal: {fileID: 0}
   location: Cozinha
   comodo: 2

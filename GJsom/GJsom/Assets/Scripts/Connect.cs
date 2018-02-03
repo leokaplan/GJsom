@@ -36,8 +36,8 @@ public class Connect : MonoBehaviour
     {
         if (insanidade > 2)
         {
-            //tier0.SetActive(false);
-          //  tier1.SetActive(true);
+            tier0.SetActive(false);
+            tier1.SetActive(true);
         }
     }
 
