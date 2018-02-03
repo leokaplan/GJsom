@@ -23,10 +23,10 @@ public class Connect : MonoBehaviour
         insanidade++;
         rank += comodo;
         Debug.Log(location + " " + rank);
-        CasaFantasma01();
+        CasaFantasma();
     }
 
-    void CasaFantasma01()
+    void CasaFantasma()
     {
         if (location == "Cozinha")
         { if(rank == 26)
