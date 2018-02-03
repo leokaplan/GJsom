@@ -9,8 +9,7 @@
     SubShader
     {
     Tags { "RenderType" = "Opaque" }
-    Lighting On
-      ZWrite On
+
         Pass
         {
             CGPROGRAM

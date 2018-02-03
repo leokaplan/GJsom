@@ -70,7 +70,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1008574196174358}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0, z: 19.44}
+  m_LocalPosition: {x: 0, y: -0, z: 18.06}
   m_LocalScale: {x: 0.21, y: 1, z: 3.57}
   m_Children: []
   m_Father: {fileID: 4552087708022876}
@@ -222,7 +222,7 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: 0.0000019073486, y: 0, z: 0.0000019073486}
+    m_Center: {x: 0.0000019073486, y: 0, z: 0.0000014305115}
     m_Extent: {x: 5.000005, y: 0.00000012516986, z: 5.0000033}
   m_DirtyAABB: 0
 --- !u!183 &183019985336267680
@@ -232,13 +232,13 @@ Cloth:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1008574196174358}
   m_Enabled: 1
-  m_StretchingStiffness: 0.85
-  m_BendingStiffness: 0.36
+  m_StretchingStiffness: 1
+  m_BendingStiffness: 1
   m_UseTethers: 1
   m_UseGravity: 1
-  m_Damping: 0.54
+  m_Damping: 0.49
   m_ExternalAcceleration: {x: 0, y: 0, z: 0}
-  m_RandomAcceleration: {x: 10, y: 30, z: 100}
+  m_RandomAcceleration: {x: 8, y: 7, z: 4}
   m_WorldVelocityScale: 0.5
   m_WorldAccelerationScale: 1
   m_Friction: 0.49
@@ -468,27 +468,27 @@ Cloth:
     collisionSphereDistance: 1
   - maxDistance: 10
     collisionSphereDistance: 1
-  - maxDistance: 0.2
+  - maxDistance: 0
     collisionSphereDistance: 0
-  - maxDistance: 0.2
+  - maxDistance: 0
     collisionSphereDistance: 0
-  - maxDistance: 0.2
+  - maxDistance: 0
     collisionSphereDistance: 0
-  - maxDistance: 0.2
+  - maxDistance: 0
     collisionSphereDistance: 0
-  - maxDistance: 0.2
+  - maxDistance: 0
     collisionSphereDistance: 0
-  - maxDistance: 0.2
+  - maxDistance: 0
     collisionSphereDistance: 0
-  - maxDistance: 0.2
+  - maxDistance: 0
     collisionSphereDistance: 0
-  - maxDistance: 0.2
+  - maxDistance: 0
     collisionSphereDistance: 0
-  - maxDistance: 0.2
+  - maxDistance: 0
     collisionSphereDistance: 0
-  - maxDistance: 0.2
+  - maxDistance: 0
     collisionSphereDistance: 0
-  - maxDistance: 0.2
+  - maxDistance: 0
     collisionSphereDistance: 0
   m_CapsuleColliders:
   - {fileID: 0}
