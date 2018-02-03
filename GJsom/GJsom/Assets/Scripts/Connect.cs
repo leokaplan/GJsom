@@ -12,11 +12,19 @@ using UnityEngine;
 
 public class Connect : MonoBehaviour
 {
+    public GameObject portal;
 
     public string location;
     static int rank = 0;
     static int insanidade = 0;
     public int comodo;
+
+
+    private void Start()
+    {
+        
+    }
+
 
     private void OnTriggerEnter(Collider other)
     {
@@ -30,7 +38,9 @@ public class Connect : MonoBehaviour
     {
         if (location == "Cozinha")
         { if(rank == 26)
-            { Debug.Log("Vai para Banheiro da casa fantasma"); }
+            { Debug.Log("Vai para Banheiro da casa fantasma");
+                portal.SetActive(true);
+            }
         }
 
         if (location == "Banheiro")
