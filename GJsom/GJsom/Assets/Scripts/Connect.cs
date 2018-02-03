@@ -22,7 +22,7 @@ public class Connect : MonoBehaviour
     {
         insanidade++;
         rank += comodo;
-        Debug.Log(location + " " + rank);
+        Debug.Log(location + " " + rank + ", insanidade: " + insanidade);
         CasaFantasma();
     }
 
