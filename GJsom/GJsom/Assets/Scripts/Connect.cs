@@ -5,10 +5,12 @@ using UnityEngine;
 public class Connect : MonoBehaviour {
 
     public string location;
+    static int i=0;
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(location);
+        i++;
+        Debug.Log(location + " " + i);
     }
 
     // Update is called once per frame
