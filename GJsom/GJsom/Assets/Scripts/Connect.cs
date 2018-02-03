@@ -60,10 +60,8 @@ public class Connect : MonoBehaviour
 
         if (location == "Quarto")
         {
-            if (rank == 31)
-            { Debug.Log("Vai para Cozinha da casa fantasma"); }
-            else if (rank == 23 || rank == 25)
-              Debug.Log("Vai para Sala da casa fantasma");
+            if (rank == 31 || rank == 23 || rank == 25)
+            { Debug.Log("Vai para Sala da casa fantasma"); }
         }
 
         if (location == "Sala")
