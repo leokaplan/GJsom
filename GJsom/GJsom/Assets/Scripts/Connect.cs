@@ -14,7 +14,7 @@ public class Connect : MonoBehaviour
 {
     public GameObject tier0;
     public GameObject tier1;
-
+    
     public GameObject portal;
 
     public string location;
