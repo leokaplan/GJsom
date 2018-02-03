@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 21ac263badf798f4490c657662207c09
-timeCreated: 1517613625
+guid: 7b9a8dad79a2a9d478e97a61e4031fe4
+timeCreated: 1517617031
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -16,7 +16,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Piano Material
-    second: {fileID: 2100000, guid: ea6d295b263164049b20145aeaa38c21, type: 2}
+    second: {fileID: 2100000, guid: 54b6e08906dade045991a27ac36429a3, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
