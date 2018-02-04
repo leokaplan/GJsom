@@ -5,8 +5,8 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
 	public AnimationCurve ComodosXInsanidade;
-	public int insanidade;
-	int comodosVisitados = 0;
+	public float insanidade;
+	public int comodosVisitados = -1;
 	public List<int> InsanidadePTeleport;
 	public List<GameObject> Casas;
 	int TPi;
@@ -27,15 +27,15 @@ public class Player : MonoBehaviour {
 		yield return new WaitForSeconds(0.001f);
 	}
 	void UpdateInsanidade(){
-		insanidade = Mathf.FloorToInt(ComodosXInsanidade.Evaluate(Mathf.FloorToInt(comodosVisitados)));
-		if(TPi!=InsanidadePTeleport.Count && insanidade==InsanidadePTeleport[TPi]){
+		insanidade = ComodosXInsanidade.Evaluate(comodosVisitados);
+		if(TPi!=InsanidadePTeleport.Count && insanidade>InsanidadePTeleport[TPi]){
 			TPi++;
 			StartCoroutine(teleport());
 		}
 	}
 	void Start () {
 		TPi = 0;
-		UpdateInsanidade();
+		//UpdateInsanidade();
 	}
 	
 	void Update () {
