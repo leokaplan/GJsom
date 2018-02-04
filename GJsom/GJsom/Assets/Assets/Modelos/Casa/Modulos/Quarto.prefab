@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4214180998640204}
   - component: {fileID: 33955524136689062}
   - component: {fileID: 23491935474181756}
+  - component: {fileID: 65670767638683216}
   m_Layer: 0
   m_Name: Object020
   m_TagString: Untagged
@@ -87,6 +88,7 @@ GameObject:
   - component: {fileID: 4531211486702086}
   - component: {fileID: 33263537999026832}
   - component: {fileID: 23368635990037430}
+  - component: {fileID: 65369472255434436}
   m_Layer: 0
   m_Name: Object016
   m_TagString: Untagged
@@ -121,6 +123,7 @@ GameObject:
   - component: {fileID: 4108877424047078}
   - component: {fileID: 33660814039511804}
   - component: {fileID: 23478605157834962}
+  - component: {fileID: 64882518078332666}
   m_Layer: 0
   m_Name: Object017
   m_TagString: Untagged
@@ -471,3 +474,41 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1041313147969526}
   m_Mesh: {fileID: 4300044, guid: c50b656ce0fc72c4ca4ca070950b974a, type: 3}
+--- !u!64 &64882518078332666
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1900380091428228}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300036, guid: c50b656ce0fc72c4ca4ca070950b974a, type: 3}
+--- !u!65 &65369472255434436
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1285801023306364}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.0218425, y: 8.936571, z: 2.5399255e-13}
+  m_Center: {x: 11.965352, y: 4.4602365, z: 5.0356045}
+--- !u!65 &65670767638683216
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1041313147969526}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.0218415, y: 8.936571, z: 2.5399255e-13}
+  m_Center: {x: 11.965352, y: 4.4602365, z: -0.00000047683682}

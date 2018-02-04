@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 4651456638151438}
   - component: {fileID: 33143238317746862}
   - component: {fileID: 23248683062677754}
+  - component: {fileID: 64668506778682524}
   m_Layer: 0
   m_Name: Plane003
   m_TagString: Untagged
@@ -104,6 +105,7 @@ GameObject:
   - component: {fileID: 4989469736667566}
   - component: {fileID: 33818594209787890}
   - component: {fileID: 23934120338038498}
+  - component: {fileID: 65422818566792908}
   m_Layer: 0
   m_Name: Object002
   m_TagString: Untagged
@@ -121,6 +123,7 @@ GameObject:
   - component: {fileID: 4751206226320516}
   - component: {fileID: 33405938006270598}
   - component: {fileID: 23319894325324532}
+  - component: {fileID: 65716822280891704}
   m_Layer: 0
   m_Name: Object003
   m_TagString: Untagged
@@ -471,3 +474,41 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1673268687801612}
   m_Mesh: {fileID: 4300010, guid: c50b656ce0fc72c4ca4ca070950b974a, type: 3}
+--- !u!64 &64668506778682524
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1404387314069932}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300006, guid: c50b656ce0fc72c4ca4ca070950b974a, type: 3}
+--- !u!65 &65422818566792908
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1673268687801612}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.9784565, y: 13.470328, z: 3.8284962e-13}
+  m_Center: {x: -10.526327, y: 3.7019784, z: 5.0356045}
+--- !u!65 &65716822280891704
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1832118812034656}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.9784565, y: 14.980773, z: 4.2577904e-13}
+  m_Center: {x: -10.526327, y: 4.457201, z: -0.00000047683682}
