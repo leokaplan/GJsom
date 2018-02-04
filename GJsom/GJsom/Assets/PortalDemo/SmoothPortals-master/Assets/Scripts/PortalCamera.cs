@@ -4,26 +4,34 @@ using System.Collections;
 public class PortalCamera : MonoBehaviour
 {
 
-    public GameObject playerCamera;
-    public GameObject portal;
-    public GameObject otherPortal;
-    public MeshRenderer renderPlane;
+    private GameObject playerCamera;
+    private GameObject portal,otherPortal;
+    public GameObject[] otherPortals;
+    private MeshRenderer renderPlane;
     public Shader portalShader;
     public RenderTexture portalRenderTexture;
 
     private Camera camera;
 
-    public Transform corner_TL;
-    public Transform corner_TR;
-    public Transform corner_BL;
-    public Transform corner_BR;
+    private Transform corner_TL;
+    private Transform corner_TR;
+    private Transform corner_BL;
+    private Transform corner_BR;
 
-    public Transform lookTarget;
+    private Transform lookTarget;
     public bool drawNearCone, drawFrustum;
 
     // Use this for initialization
+
+    public void RandomPortal(){
+        otherPortal = otherPortals[Random.Range(0,otherPortals.Length)];
+    }
+    public void TruePortal(){
+        otherPortal = otherPortals[0];
+    }
     void Start()
     {
+        TruePortal();
         if (playerCamera == null)
         {
             // if no reference is set up then we will try to find it
@@ -33,10 +41,20 @@ public class PortalCamera : MonoBehaviour
                 print("cannot find player camera");
             }
         }
-
-        // setup cameras and textures
+        portal = transform.parent.gameObject;
+        renderPlane = transform.parent.GetChild(0).gameObject.GetComponent<MeshRenderer>();
+        corner_TL = transform.parent.GetChild(0).GetChild(0).GetChild(0);
+        corner_TR= transform.parent.GetChild(0).GetChild(0).GetChild(1);
+        corner_BL= transform.parent.GetChild(0).GetChild(0).GetChild(2);
+        corner_BR= transform.parent.GetChild(0).GetChild(0).GetChild(3);
+        lookTarget= transform.parent.GetChild(0).GetChild(0).GetChild(4);
+        
         camera = GetComponent<Camera>();
+        
+        
+
         if (camera.targetTexture != null)
+        
             camera.targetTexture.Release();
 
         camera.targetTexture = new RenderTexture(portalRenderTexture);
