@@ -8,3 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Projeto Final/00 -Start.unity
     guid: 5a72f871c9472f94dafe79ca7d22c48c
+  - enabled: 1
+    path: Assets/Scenes/Projeto Final/Game 2.0.unity
+    guid: f43c4bdb20d52ff4986b92c134ee2f8f
