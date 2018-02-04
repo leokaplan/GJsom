@@ -25,9 +25,11 @@ public class PortalCamera : MonoBehaviour
 
     public void RandomPortal(){
         otherPortal = otherPortals[Random.Range(0,otherPortals.Length)];
+        transform.parent.GetChild(1).gameObject.GetComponent<Sender>().receive(otherPortal);
     }
     public void TruePortal(){
         otherPortal = otherPortals[0];
+        transform.parent.GetChild(1).gameObject.GetComponent<Sender>().receive(otherPortal);
     }
     void Start()
     {

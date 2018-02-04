@@ -3,13 +3,15 @@ using System.Collections;
 
 public class Sender : MonoBehaviour {
     
-    public GameObject receiver;
+    private GameObject receiver;
 
     private Portable currentlyOverlappingObject;
 
     void Start () {
     }
-
+    public void receive(GameObject g){
+        receiver = g;
+    }
     void FixedUpdate()
     {
         if (currentlyOverlappingObject != null) {
