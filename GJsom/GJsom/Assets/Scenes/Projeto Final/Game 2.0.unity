@@ -6757,6 +6757,10 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1145720104170332, guid: 218f70fabd355884ca6e7488cbc1cceb, type: 2}
+      propertyPath: m_Name
+      value: Sala
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 218f70fabd355884ca6e7488cbc1cceb, type: 2}
   m_IsPrefabParent: 0
@@ -10342,14 +10346,14 @@ MonoBehaviour:
     - serializedVersion: 2
       time: 0
       value: 0
-      inSlope: -0.12607355
-      outSlope: -0.12607355
+      inSlope: 1
+      outSlope: 1
       tangentMode: 0
     - serializedVersion: 2
-      time: 14.97683
-      value: 5.0084763
-      inSlope: 0.6526154
-      outSlope: 0.6526154
+      time: 150.105
+      value: 150.2071
+      inSlope: 1
+      outSlope: 1
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -10562,7 +10566,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: af3cd5d3b93a4914581eebe967a5ac32, type: 3}
   - {fileID: 8300000, guid: 4689b6fd2ee150640bf9dc1f45815a61, type: 3}
   m_JumpSound: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
-  m_LandSound: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
+  m_LandSound: {fileID: 0}
 --- !u!143 &1463978781
 CharacterController:
   m_ObjectHideFlags: 0
