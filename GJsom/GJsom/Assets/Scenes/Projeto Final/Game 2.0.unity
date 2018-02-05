@@ -10632,26 +10632,32 @@ MonoBehaviour:
         outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
-        time: 31.602774
+        time: 22.57156
+        value: 0.012066662
+        inSlope: 0.000037252903
+        outSlope: 0.000037252903
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 25.62818
         value: 0.012322259
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
-        time: 31.86299
-        value: 0.23279281
+        time: 26.581099
+        value: 0.2341661
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
-        time: 34.347534
+        time: 29.388504
         value: 0.23258711
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
-        time: 34.763554
-        value: 0.7349483
+        time: 29.991657
+        value: 0.74088055
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -53896,7 +53902,7 @@ MonoBehaviour:
     m_RotationOrder: 0
   insanidade: 0
   comodosVisitados: -1
-  InsanidadePTeleport: 08000000090000000a0000000b0000000c0000000d0000000e0000000f0000001e00000023000000
+  InsanidadePTeleport: 08000000090000000a0000000b0000000c0000000d0000000e0000000f000000190000001e000000
   Casas:
   - {fileID: 473754414}
   - {fileID: 1338614819}
