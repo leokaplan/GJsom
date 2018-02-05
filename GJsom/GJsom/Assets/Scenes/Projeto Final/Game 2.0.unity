@@ -10450,7 +10450,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 339057302}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 870b9a8f0f82f4f56800cc427bcd1025, type: 3}
   m_Name: 
@@ -10467,7 +10467,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 339057302}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5cb1a1b262fa8743a4fc9b26cb5f14a, type: 3}
   m_Name: 
@@ -10480,13 +10480,25 @@ MonoBehaviour:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: -0.0014877319
+        value: -0.00064086914
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
         time: 1
-        value: -0.0014877319
+        value: -0.00064086914
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 13.461737
+        value: -0.0011475113
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 15.358649
+        value: 0.20169117
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -10499,13 +10511,13 @@ MonoBehaviour:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: -0.006931305
+        value: 0.00050735474
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
         time: 1
-        value: -0.006931305
+        value: 0.00050735474
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -10518,13 +10530,25 @@ MonoBehaviour:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: -0.0005569458
+        value: 0.00006866455
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
         time: 1
-        value: -0.0005569458
+        value: 0.00006866455
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 15.701931
+        value: 0.00084885367
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 15.832431
+        value: 0.005271198
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -10537,13 +10561,31 @@ MonoBehaviour:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: -0.024261475
+        value: 0.00021362305
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
-        time: 1
-        value: -0.024261475
+        time: 0.04546033
+        value: 0.00021362305
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 15.723513
+        value: 0.0016396721
+        inSlope: -0.00003958121
+        outSlope: -0.00003958121
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 15.802631
+        value: 0.024579793
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 16.809244
+        value: 0.025029592
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -14514,13 +14556,13 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 471506872}
-  m_LocalRotation: {x: 0.3535, y: 0.6124033, z: -0.3535, w: 0.6124033}
-  m_LocalPosition: {x: 5.219841, y: 0.8494997, z: 6.963663}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: 5.219841, y: 0.8494997, z: 7.013}
   m_LocalScale: {x: 1, y: 0.62819797, z: 1}
   m_Children: []
   m_Father: {fileID: 914157583}
   m_RootOrder: 39
-  m_LocalEulerAnglesHint: {x: 59.99, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
 --- !u!65 &471506874
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30524,7 +30566,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &1076167247
 Animator:
   serializedVersion: 3
@@ -53813,7 +53855,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.45
+  m_Volume: 1
   m_Pitch: 0.6
   Loop: 0
   Mute: 0
@@ -54000,7 +54042,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: cd186d24fd54d90458b6abd141d125d9, type: 3}
   - {fileID: 8300000, guid: 07a811d49bf915d41a60298f72e477ab, type: 3}
   - {fileID: 8300000, guid: e647664511abd8f46a27d63c1d2634a8, type: 3}
-  - {fileID: 8300000, guid: af3cd5d3b93a4914581eebe967a5ac32, type: 3}
+  - {fileID: 8300000, guid: cd186d24fd54d90458b6abd141d125d9, type: 3}
   - {fileID: 8300000, guid: 4689b6fd2ee150640bf9dc1f45815a61, type: 3}
   m_JumpSound: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
   m_LandSound: {fileID: 0}
@@ -54015,7 +54057,7 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2.5
+  m_Height: 2.25
   m_Radius: 0.5
   m_SlopeLimit: 45
   m_StepOffset: 0.3
@@ -60274,7 +60316,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.6
   m_Pitch: 0.9
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
