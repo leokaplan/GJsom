@@ -3204,7 +3204,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 339057302}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a3a070408aa941ab83ae10be1708848, type: 3}
   m_Name: 
@@ -3218,7 +3218,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 339057302}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5cb1a1b262fa8743a4fc9b26cb5f14a, type: 3}
   m_Name: 
@@ -3236,14 +3236,14 @@ MonoBehaviour:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 4.462371
-        value: 0.2170161
-        inSlope: 0.17022827
-        outSlope: 0.17022827
+        time: 4.99356
+        value: 0.020528674
+        inSlope: 0.01316235
+        outSlope: 0.01316235
         tangentMode: 136
       - serializedVersion: 2
-        time: 5.099414
-        value: 1.1210108
+        time: 6.2386045
+        value: 1.961297
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3257,7 +3257,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 339057302}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 870b9a8f0f82f4f56800cc427bcd1025, type: 3}
   m_Name: 
@@ -3274,7 +3274,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 339057302}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5cb1a1b262fa8743a4fc9b26cb5f14a, type: 3}
   m_Name: 
@@ -3287,21 +3287,15 @@ MonoBehaviour:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: -0.019378662
+        value: -0.0014877319
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
-        time: 3.7365015
-        value: 0.07567865
-        inSlope: -0.016093254
-        outSlope: -0.016093254
-        tangentMode: 0
-      - serializedVersion: 2
-        time: 5.369667
-        value: 1.4781685
-        inSlope: 2
-        outSlope: 2
+        time: 1
+        value: -0.0014877319
+        inSlope: 0
+        outSlope: 0
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -3312,18 +3306,18 @@ MonoBehaviour:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: 0.012499999
+        value: -0.006931305
         inSlope: 0
         outSlope: 0
-        tangentMode: 136
+        tangentMode: 0
       - serializedVersion: 2
-        time: 4.991239
-        value: 1.0321777
+        time: 1
+        value: -0.006931305
         inSlope: 0
         outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 0
-      m_PostInfinity: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
       m_RotationOrder: 0
   - name: _horizontalShake
     curve:
@@ -3331,38 +3325,32 @@ MonoBehaviour:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: 0
+        value: -0.021492004
         inSlope: 0
         outSlope: 0
-        tangentMode: 136
+        tangentMode: 0
       - serializedVersion: 2
-        time: 4.029003
-        value: 0.049269736
-        inSlope: 0.03885762
-        outSlope: 0.03885762
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 5.071822
-        value: 1.0151173
+        time: 1
+        value: -0.021492004
         inSlope: 0
         outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 0
-      m_PostInfinity: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
       m_RotationOrder: 0
   - name: _colorDrift
     curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 2
-        time: 3.084877
-        value: 0.0007953644
+        time: 0
+        value: -0.024261475
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
-        time: 5.027481
-        value: 1.012413
+        time: 1
+        value: -0.024261475
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -5584,7 +5572,7 @@ Prefab:
     - target: {fileID: 137834715879030046, guid: dee00199186382d4b85faac8dc384636,
         type: 2}
       propertyPath: m_AABB.m_Center.x
-      value: 0.14548683
+      value: 0.14548635
       objectReference: {fileID: 0}
     - target: {fileID: 137834715879030046, guid: dee00199186382d4b85faac8dc384636,
         type: 2}
@@ -5599,7 +5587,7 @@ Prefab:
     - target: {fileID: 137834715879030046, guid: dee00199186382d4b85faac8dc384636,
         type: 2}
       propertyPath: m_AABB.m_Extent.x
-      value: 0.5123143
+      value: 0.5123142
       objectReference: {fileID: 0}
     - target: {fileID: 137834715879030046, guid: dee00199186382d4b85faac8dc384636,
         type: 2}
@@ -5619,7 +5607,7 @@ Prefab:
     - target: {fileID: 137079420199390682, guid: dee00199186382d4b85faac8dc384636,
         type: 2}
       propertyPath: m_AABB.m_Extent.x
-      value: 0.51231444
+      value: 0.5123143
       objectReference: {fileID: 0}
     - target: {fileID: 137079420199390682, guid: dee00199186382d4b85faac8dc384636,
         type: 2}
@@ -14401,7 +14389,7 @@ SkinnedMeshRenderer:
   m_RootBone: {fileID: 0}
   m_AABB:
     m_Center: {x: -0.0000042915344, y: 0.0000076293945, z: 0.0000009536743}
-    m_Extent: {x: 5.000005, y: 0.000009649194, z: 5.0000024}
+    m_Extent: {x: 5.000005, y: 0.000009649194, z: 5.000003}
   m_DirtyAABB: 0
 --- !u!64 &1220388440
 MeshCollider:
@@ -21978,7 +21966,7 @@ GameObject:
   - component: {fileID: 1767438148}
   - component: {fileID: 1767438147}
   m_Layer: 0
-  m_Name: idek
+  m_Name: Ambience
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25084,7 +25072,7 @@ Prefab:
     - target: {fileID: 137940216572030332, guid: 9b34ef5c225bdf640bbfc0edd1af160f,
         type: 2}
       propertyPath: m_AABB.m_Center.x
-      value: 0.14549065
+      value: 0.1454897
       objectReference: {fileID: 0}
     - target: {fileID: 137940216572030332, guid: 9b34ef5c225bdf640bbfc0edd1af160f,
         type: 2}
@@ -25109,7 +25097,7 @@ Prefab:
     - target: {fileID: 137245692679768478, guid: 9b34ef5c225bdf640bbfc0edd1af160f,
         type: 2}
       propertyPath: m_AABB.m_Center.x
-      value: 0.1454897
+      value: 0.14548779
       objectReference: {fileID: 0}
     - target: {fileID: 137245692679768478, guid: 9b34ef5c225bdf640bbfc0edd1af160f,
         type: 2}
